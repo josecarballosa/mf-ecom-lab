@@ -17,6 +17,7 @@ const nextConfig = {
           './Nav': './components/Nav',
         },
         extraOptions: {
+          verbose: true,
           automaticAsyncBoundary: true, // `false` by default
         },
       })

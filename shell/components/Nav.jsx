@@ -10,8 +10,8 @@ export default function Nav() {
   return (
     <div className={styles.nav}>
       <Link href="/">Home</Link>
-      <Link href="/product">Product</Link>
-      <Link href="/cart">Cart</Link>
+      <Link href="cart">Cart</Link>
+      <Link href="product">Product</Link>
       <CartIconRemote />
     </div>
   )
